@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------------
+　基本設定
+---------------------------------------*/
+html{}
+body{
+	font-size:81%;
+	font:13px/1.7 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	color:#333333;
+	text-align:justify; 
+	text-justify:distribute;
+}
+
+/*--------------------------------------
+　大枠囲み
+---------------------------------------*/
+#wrapper{
+	min-width:980px;
+	margin:0 auto;
+}
+#hdbox1{
+	min-width:980px;
+	background:url(../images/hd_bg.gif) repeat-x;
+	height:91px;
+}
+#hdbox2{
+	width:980px;
+	margin:0 auto;
+	padding-top:3px;
+	overflow:hidden;
+}
+#contents{
+	width:980px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-top:33px;
+}
+#main{
+	overflow:hidden;
+	width:681px;
+	float:left;
+}
+#side{
+	width:251px;
+	float:right;
+	overflow:hidden;
+}
+#footer{	
+	min-width:980px;
+	overflow:hidden;
+	clear:both;
+	font:0.75em/1.6 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	color:#9c9c9c;
+	background:#000000;
+}
+
+/*--------------------------------------
+　ヘッダー
+---------------------------------------*/
+h1{
+	font-size:10px;
+	color:#999797;
+	margin-top:2px;
+}
+#hdleft{float:left;}
+#logo{margin-top:24px;}
+
+/*--------------------------------------
+　グローバルナビゲーション
+---------------------------------------*/
+#gnavi{
+	float:right;
+	width:698px;
+	overflow:hidden;
+	font-size:14px;
+	margin-top:33px;
+}
+#gnavi li{
+	float:left;
+	line-height:0;
+	height:55px;
+	width:139px;
+	text-align:center;
+	color:#333333;
+	font-weight:bold;
+}
+
+#gnavi li a{
+	display:block;
+	color:#333333;
+	text-decoration:none;
+	height:55px;
+	line-height:46px;
+}
+#gnavi a:hover{color:#dc2020;}
+#gnavi li strong{height:32px;}
+#gnavi li strong a{color:#dc2020;}
+.g1{background:url(../images/gnavi1_off.gif) no-repeat;}
+.g2{background:url(../images/gnavi2_off.gif) no-repeat;}
+.g3{background:url(../images/gnavi3_off.gif) no-repeat;}
+.g4{background:url(../images/gnavi4_off.gif) no-repeat;}
+.g5{background:url(../images/gnavi5_off.gif) no-repeat;}
+.g1 a:hover{background:url(../images/gnavi1_on.gif) no-repeat;}
+.g2 a:hover{background:url(../images/gnavi2_on.gif) no-repeat;}
+.g3 a:hover{background:url(../images/gnavi3_on.gif) no-repeat;}
+.g4 a:hover{background:url(../images/gnavi4_on.gif) no-repeat;}
+.g5 a:hover{background:url(../images/gnavi5_on.gif) no-repeat;}
+.g1 strong a{background:url(../images/gnavi1_on.gif) no-repeat;}
+.g2 strong a{background:url(../images/gnavi2_on.gif) no-repeat;}
+.g3 strong a{background:url(../images/gnavi3_on.gif) no-repeat;}
+.g4 strong a{background:url(../images/gnavi4_on.gif) no-repeat;}
+.g5 strong a{background:url(../images/gnavi5_on.gif) no-repeat;}
+
+/*--------------------------------------
+　メインコンテンツ
+---------------------------------------*/
+/*h-------------------*/
+h2{
+	background:url(../images/tit.gif) left bottom no-repeat;
+	padding:0 0 8px;
+	margin-bottom:12px;
+	line-height:22px;
+	font-weight:bold;
+	font-size:18px;
+	clear:both;
+}
+h3{	
+	background:url(../images/s_tit.gif) left no-repeat;
+	color:#ffffff;
+	padding:1px 0 0 39px;
+	margin-bottom:4px;
+	line-height:22px;
+	height:23px;
+}
+/*メイン画像-----*/
+#visual{
+	margin:0 auto;
+	width:980px;
+	/*background:url(../images/mbg.gif) center top no-repeat;*/
+	padding-top:20px;
+}
+#visual2{
+	margin:0 auto;
+	width:980px;
+	/*background:url(../images/s_main.gif) no-repeat;*/
+	overflow:hidden;
+	font-size:29px;
+	padding:23px 0 17px;
+}
+#visual2 p{padding:26px;
+}
+
+/*以下、カスタム*/
+#visual3{
+	margin:0 auto;
+	width:980px;
+	overflow:hidden;
+	font-size:20px;
+	padding:10px 0 17px;
+}
+#visual3 p{padding:10px;
+}
+
+/*新着情報-----*/
+.news dt{
+	background:url(../images/arrow.gif) 11% 50% no-repeat;
+	float:left;
+	clear:both;
+	padding-left:27px;
+	line-height:38px;
+}
+.news dd{
+	border-bottom:1px dotted #a6a6a6;
+	padding:0 0 0 119px;
+	line-height:38px;
+}
+
+/*行事予定-----*/
+table th{
+	border-bottom:1px dotted #a6a6a6;
+	padding:7px 0;
+}
+table td{
+	border-bottom:1px dotted #a6a6a6;
+	padding:7px 0;
+}
+
+a {text-decoration: none;}
+a:link { color: #dc2020; } /* リンクの色 */
+a:visited { color: #dc2020; } /* 済みリンク */
+a:hover { 
+	color: #dc2020;
+	text-decoration: underline;
+}/* リンク上 */
+a:active { color: #dc2020; }/* onclick */
+
+/*--------------------------------------
+　サイド
+---------------------------------------*/
+#side ul{margin-bottom:34px;}
+#side ul li{
+	text-indent:14px;
+	padding:0 0 0 13px;
+	display:block;
+	background:url(../images/arrow.gif) 5% 50% no-repeat;
+	border-bottom:1px dotted #a6a6a6;
+	font-size:13px;
+	line-height:35px;
+	font-weight:bold;
+}
+#side ul li a{display:block;}
+
+#side a {text-decoration: none;}
+#side a:link {color: #333333; } /* リンクの色 */
+#side a:visited {color: #333333; } /* 済みリンク */
+#side a:hover {color: #dc2020;}/* リンク上 */
+#side a:active { color: #dc2020; }/* onclick */
+
+/*--------------------------
+フッター
+--------------------------*/
+/*フッター------------*/
+#footer a{color:#9c9c9c;}
+#ftbox1{
+	overflow:hidden;
+	color:#9c9c9c;
+	width:980px;
+	/*background:url(../images/foot.jpg) no-repeat;*/
+	margin:0 auto;
+	padding:6px 0
+}
+#ftbox2{
+	background:#333333;
+	overflow:hidden;
+	padding:10px 0;
+	color:#ffffff;
+	width:980px;
+	margin:0 auto;
+}
+#ftleft{
+	float:left;
+	width:400px;
+}
+#ftbox1 ul{font-size:10px;}
+#ftbox1 ul li{float:left;}
+#ftbox1 li a{margin:0 10px;}
+
+/*ページトップ-------*/
+.pagetop{
+	overflow:hidden;
+	margin:0 auto;
+	width:980px;
+	text-align:right;
+	padding:69px 0 5px 0;
+}
+
+/*コピーライト-------*/
+.copy{
+	color:#fff;
+	margin-top:104px;
+	float:right;
+}
+.tmp_webfac{padding-top:106px;}
+
+/*--------------------------
+テキスト・間隔
+--------------------------*/
+/*float-------------------*/
+.left{
+	float:left;
+	display:inline;
+}
+.right{float:right;}
+/*テキスト設定・間隔----------*/
+.lefttxt1{
+	width:509px;
+	float:left;
+}
+
+/*◆赤太字◆ */
+.lefttxt1 strong{
+	font-weight:bold;
+	color:#dc2020;;
+}
+
+.righttxt1{
+	width:509px;
+	float:right;
+}
+.box1{
+	margin-bottom:38px;
+	overflow:hidden;
+}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.pd1{margin:12px 0 5px;}
